@@ -36,18 +36,21 @@ const register = async (req, res) => {
         },
     });
 
+    // Generate JWT Token
+    const token = generateToken(user.id, res);
+
     res.status(201).json({
         status: "success",
         data: {
-            user: {
-                id: user.id ,
-                name: name,
-                email: email ,
-            },
+        user: {
+            id: user.id,
+            name: name,
+            email: email,
+        },
+        token,
         },
     });
 };
-
 
 const login = async (req, res) => {
     const { email, password } = req.body ; 
