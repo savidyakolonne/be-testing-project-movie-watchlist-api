@@ -1,4 +1,4 @@
-# 🎬 BackendLeanAPI
+# 🎬 BackendLearn - how API works 
 
 A RESTful backend API for user authentication and movie watchlist management.
 Built with Node.js, Express, and Prisma.
