@@ -4,10 +4,15 @@ A RESTful backend API for user authentication and movie watchlist management.
 Built with Node.js, Express, and Prisma.
 
 ---
-
+Postman ss
 <p align="center">
   <img src="./image.png" width="800"/>
 </p>
+---
+<p align="center">
+  <img src="./imageneon.png" width="800"/>
+</p>
+
 
 ## 🚀 Features
 
